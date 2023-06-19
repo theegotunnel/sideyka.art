@@ -83,6 +83,33 @@
 }
 
 /*******************/
+/* Featured In */
+/*******************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.logos img {
+  height: 5rem;
+  filter: grayscale(100%);
+  opacity: 65%;
+}
+/*******************/
 /* How It Works */
 /*******************/
 
@@ -136,4 +163,67 @@
 .step-img {
   width: 60%;
   border-radius: 5px;
+}
+
+/*******************/
+/* Projects */
+/*******************/
+
+.section-projects {
+  padding: 9.6rem 0;
+}
+
+.project {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all ease-in-out 0.4s;
+}
+
+.project:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.project-content {
+  padding: 1.2rem;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-title {
+  padding-top: 1rem;
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.project-description {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+.project-links-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.project-link:link,
+.project-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.project-link:hover,
+.project-link:active {
+  color: #e69d00;
 }

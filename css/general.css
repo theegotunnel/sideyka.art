@@ -68,6 +68,11 @@ body {
   margin: 0 auto;
 }
 
+.flex--center {
+  display: flex;
+  justify-content: center;
+}
+
 .grid {
   display: grid;
   row-gap: 9.6rem;
@@ -134,7 +139,8 @@ body {
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
