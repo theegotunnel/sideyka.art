@@ -1,0 +1,91 @@
+/* Below 1344px (Smaller Desktops) */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .container {
+    max-width: 110rem;
+  }
+}
+
+/* Below 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .container {
+    max-width: 100rem;
+  }
+}
+
+/* Below 940 */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+
+  .heading-primary {
+    margin-bottom: 1.8rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .container {
+    max-width: 90rem;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 2fr 2fr;
+  }
+}
