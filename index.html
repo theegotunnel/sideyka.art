@@ -24,6 +24,8 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <!-- The End Of Icons Script -->
+
+    <script defer src="js/script.js"></script>
     <title>Сидейка Арт</title>
   </head>
   <body>
@@ -37,10 +39,14 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Как это работает</a></li>
-          <li><a class="main-nav-link" href="#">Наши проекты</a></li>
           <li>
-            <a class="main-nav-link nav-cta" href="#">Заказать Арт-Объект</a>
+            <a class="main-nav-link" href="#philosophy">Наша философия</a>
+          </li>
+          <li><a class="main-nav-link" href="#projects">Наши проекты</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#order"
+              >Заказать Арт-Объект</a
+            >
           </li>
           <!-- <li><a class="main-nav-link" href="#">Section 4</a></li>
           <li><a class="main-nav-link" href="#">Section 5</a></li> -->
@@ -62,10 +68,10 @@
               Создаём интерактивные арт-объекты для городского пространства.
               Делаем города "живыми", а людей участниками городской среды.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#order" class="btn btn--full margin-right-sm"
               >Заказать арт-объект</a
             >
-            <a href="#" class="btn btn--outline">Подробнее &darr;</a>
+            <a href="#philosophy" class="btn btn--outline">Подробнее &darr;</a>
           </div>
           <div class="hero-img-box">
             <img
@@ -103,7 +109,8 @@
           </div>
         </div>
       </section>
-      <section class="section-how">
+      <!-- section how -->
+      <section class="section-how" id="philosophy">
         <div class="container">
           <span class="subheading">Как это работает</span>
           <h2 class="heading-secondary">Философия живого города</h2>
@@ -180,7 +187,7 @@
 
       <!-- Projects Section -->
 
-      <section class="section-projects">
+      <section class="section-projects" id="projects">
         <div class="container">
           <span class="subheading">Наши проекты</span>
           <h2 class="heading-secondary">Интерактивные арт-объекты</h2>
@@ -191,6 +198,7 @@
               src="img/projects/1-sideyka.jpg"
               alt="Проект Сидейка"
               class="project-img"
+              id="sideyka"
             />
             <div class="project-content">
               <p class="project-title flex--center">Сидейка</p>
@@ -213,6 +221,7 @@
               src="img/projects/2-bird.jpg"
               alt="Фотография арт-проекта птица"
               class="project-img"
+              id="bird"
             />
             <div class="project-content">
               <p class="project-title flex--center">Птица</p>
@@ -233,6 +242,7 @@
               src="img/projects/3-caspers.jpg"
               alt="Проект Привидения"
               class="project-img"
+              id="caspers"
             />
             <div class="project-content">
               <p class="project-title flex--center">Привидения</p>
@@ -253,6 +263,7 @@
               src="img/projects/4-vitya.jpg"
               alt="Проект Дядя Витя"
               class="project-img"
+              id="vitya"
             />
             <div class="project-content">
               <p class="project-title flex--center">Дядя Витя</p>
@@ -303,7 +314,7 @@
 
       <!-- Section cta -->
 
-      <section class="section-cta">
+      <section class="section-cta" id="order">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -342,32 +353,32 @@
           <nav class="nav-col">
             <p class="footer-heading">Наши проекты</p>
             <ul class="footer-nav">
-              <li><a class="footer-link" href="#">Сидейка</a></li>
-              <li><a class="footer-link" href="#">Птица</a></li>
-              <li><a class="footer-link" href="#">Дядя Витя</a></li>
-              <li><a class="footer-link" href="#">Привидения</a></li>
+              <li><a class="footer-link" href="#sideyka">Сидейка</a></li>
+              <li><a class="footer-link" href="#bird">Птица</a></li>
+              <li><a class="footer-link" href="#vitya">Дядя Витя</a></li>
+              <li><a class="footer-link" href="#caspers">Привидения</a></li>
             </ul>
           </nav>
           <div class="address-col">
             <p class="footer-heading">Наши Контакты</p>
             <ul class="footer-nav">
               <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon name="call-outline"></ion-icon> Телефон</a
+                <a class="footer-link" href="tel:+79995238582"
+                  ><ion-icon name="call-outline"></ion-icon> +7 999 523 8582</a
                 >
               </li>
               <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon name="mail-outline"></ion-icon> Почта</a
+                <a class="footer-link" href="mailto:mail@sideyka.art"
+                  ><ion-icon name="mail-outline"></ion-icon> mail@sideyka.art</a
                 >
               </li>
               <li>
-                <a class="footer-link" href="#"
+                <a class="footer-link" href="viber://chat?number=375295120787"
                   ><ion-icon name="send-outline"></ion-icon> Вайбер</a
                 >
               </li>
               <li>
-                <a class="footer-link" href="#"
+                <a class="footer-link" href="https://t.me/EvgenyPolovinsky"
                   ><ion-icon name="navigate-circle-outline"></ion-icon>
                   Телеграм</a
                 >
@@ -378,28 +389,36 @@
             <p class="footer-heading">Мы в социальных сетях</p>
             <ul class="footer-nav">
               <li>
-                <a class="footer-link" href="#"
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/sideyka.art/"
                   ><ion-icon name="logo-instagram"></ion-icon> Инстаграм</a
                 >
               </li>
               <li>
-                <a class="footer-link" href="#"
+                <a
+                  class="footer-link"
+                  href="https://www.youtube.com/@user-se6wu6ft2n"
                   ><ion-icon name="logo-youtube"></ion-icon> Ютуб</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a class="footer-link" href="#"
                   ><ion-icon name="logo-vk"></ion-icon> ВК</a
                 >
-              </li>
+              </li> -->
             </ul>
           </nav>
           <nav class="nav-col">
             <p class="footer-heading">Навигация</p>
             <ul class="footer-nav">
-              <li><a class="footer-link" href="#">Как это работает</a></li>
-              <li><a class="footer-link" href="#">Наши проекты</a></li>
-              <li><a class="footer-link" href="#">Заказать Арт-Объект</a></li>
+              <li>
+                <a class="footer-link" href="#philosophy">Наша философия</a>
+              </li>
+              <li><a class="footer-link" href="#projects">Наши проекты</a></li>
+              <li>
+                <a class="footer-link" href="#order">Заказать Арт-Объект</a>
+              </li>
             </ul>
           </nav>
         </div>
