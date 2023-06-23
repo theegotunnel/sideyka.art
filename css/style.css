@@ -9,6 +9,7 @@
   background-color: #ffefcc;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -53,6 +54,26 @@
   background-color: #e69d00;
 }
 
+/*******************/
+/* Mobile Nav */
+/*******************/
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
 /*******************/
 /* Hero Section */
 /*******************/
