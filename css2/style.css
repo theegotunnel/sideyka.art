@@ -111,6 +111,11 @@
   align-items: center;
 }
 
+.hero-img-box:hover {
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
