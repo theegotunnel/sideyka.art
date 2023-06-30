@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css2/style.css" />
+    <link rel="stylesheet" href="css2/general.css" />
+    <link rel="stylesheet" href="css2/queries.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image" />
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- The End Of Icons Script -->
+
+    <script defer src="js2/script.js"></script>
+    <!-- Telegram Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/telegramform/js/telegramform.js"></script>
+    <!-- Telegram Script -->
+    <title>Сидейка Арт — создание интерактивных арт-объектов.</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="smooth">
+        <img
+          src="img/sideyka-art-logo.png"
+          alt="Сидейка АРТ Логотип"
+          class="logo"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#philosophy">Наша философия</a>
+          </li>
+          <li><a class="main-nav-link" href="#projects">Наши проекты</a></li>
+          <li>
+            <a class="main-nav-link nav-cta smooth" href="#order"
+              >Заказать Арт-Объект</a
+            >
+          </li>
+          <!-- <li><a class="main-nav-link" href="#">Section 4</a></li>
+          <li><a class="main-nav-link" href="#">Section 5</a></li> -->
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <!-- Section Hero -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Заказать пицу для ваших качелей</h1>
+            <p class="hero-description">
+              Привезем, установим. Птица вешается на любые качели. Либо можете
+              купить их у нас. А дальше идет просто текст, чтобы был текст,
+              чтобы было видно, как выглядит текст на этой странице.
+            </p>
+            <a href="#order" class="btn btn--full margin-right-sm smooth"
+              >Заказать арт-объект</a
+            >
+            <a href="#philosophy" class="btn btn--outline smooth"
+              >Подробнее &darr;</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <a class="smooth" href="#projects">
+              <img
+                src="img/philosophy/phl-1.gif"
+                class="hero-img"
+                alt="Проекты сидейка арт: дядя Витя в фонарях, привидения живут на крыше, сидейка"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section cta -->
+
+      <section class="section-cta" id="order">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Заказать уникальный интерактивный арт-объект:
+              </h2>
+              <p class="cta-text">Просто напишите или позвоните нам.</p>
+
+              <ul class="contacts-temp">
+                <li>
+                  <a class="cta-link" href="tel:+375295120787"
+                    ><ion-icon name="call-outline"></ion-icon> +375 29 512
+                    0787</a
+                  >
+                </li>
+                <li>
+                  <a class="cta-link" href="tel:+79995238582"
+                    ><ion-icon name="call-outline"></ion-icon> +7 999 523
+                    8582</a
+                  >
+                </li>
+                <li>
+                  <a class="cta-link" href="mailto:mail@sideyka.art"
+                    ><ion-icon name="mail-outline"></ion-icon>
+                    mail@sideyka.art</a
+                  >
+                </li>
+                <li>
+                  <a class="cta-link" href="viber://chat?number=375295120787"
+                    ><ion-icon name="send-outline"></ion-icon> Вайбер</a
+                  >
+                </li>
+                <li>
+                  <a class="cta-link" href="https://t.me/EvgenyPolovinsky"
+                    ><ion-icon name="navigate-circle-outline"></ion-icon>
+                    Телеграм</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Фотография сидейки"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA SECTION BACKUP -->
+      <!--<section class="section-cta" id="order">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Заказать уникальный интерактивный арт-объект:
+              </h2>
+              <p class="cta-text">
+                Просто оставьте свой контакт, и мы с вами свяжемся.
+              </p>
+              <form action="" class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Ваше имя</label>
+                  <input id="full-name" type="text" placeholder="Ваше имя" />
+                </div>
+                <div>
+                  <label for="email">Почта или телефон</label>
+                  <input id="email" placeholder="Почта или телефон" />
+                </div>
+                <button class="btn btn--form">Оставить заявку</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Фотография сидейки"
+            ></div>
+          </div>
+        </div>
+      </section>-->
+      <!-- CTA SECTION BACKUP -->
+    </main>
+    <footer class="footer">
+      <div class="flex--center">
+        <div class="container grid grid--4-cols footer--grid--gap">
+          <nav class="nav-col">
+            <p class="footer-heading">Наши проекты</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link smooth" href="#sideyka">Сидейка</a></li>
+              <li>
+                <a class="footer-link smooth" href="#bird">Крылатые качели</a>
+              </li>
+              <li><a class="footer-link smooth" href="#vitya">Дядя Витя</a></li>
+              <li>
+                <a class="footer-link smooth" href="#caspers">Привидения</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="address-col">
+            <p class="footer-heading">Наши Контакты</p>
+            <ul class="footer-nav">
+              <li>
+                <a class="footer-link" href="tel:+375295120787"
+                  ><ion-icon name="call-outline"></ion-icon> +375 29 512 0787</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="tel:+79995238582"
+                  ><ion-icon name="call-outline"></ion-icon> +7 999 523 8582</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="mailto:mail@sideyka.art"
+                  ><ion-icon name="mail-outline"></ion-icon> mail@sideyka.art</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="viber://chat?number=375295120787"
+                  ><ion-icon name="send-outline"></ion-icon> Вайбер</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="https://t.me/EvgenyPolovinsky"
+                  ><ion-icon name="navigate-circle-outline"></ion-icon>
+                  Телеграм</a
+                >
+              </li>
+            </ul>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Мы в социальных сетях</p>
+            <ul class="footer-nav">
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/sideyka.art/"
+                  ><ion-icon name="logo-instagram"></ion-icon> Инстаграм</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.youtube.com/@user-se6wu6ft2n"
+                  ><ion-icon name="logo-youtube"></ion-icon> Ютуб</a
+                >
+              </li>
+              <!-- <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon name="logo-vk"></ion-icon> ВК</a
+                >
+              </li> -->
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading">Навигация</p>
+            <ul class="footer-nav">
+              <li>
+                <a class="footer-link smooth" href="#philosophy"
+                  >Наша философия</a
+                >
+              </li>
+              <li>
+                <a class="footer-link smooth" href="#projects">Наши проекты</a>
+              </li>
+              <li>
+                <a class="footer-link smooth" href="#order"
+                  >Заказать Арт-Объект</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
