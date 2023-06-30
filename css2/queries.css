@@ -253,3 +253,17 @@
     font-size: 1.4rem !important;
   }
 }
+
+/* Phones below 320 was 544*/
+@media (max-width: 20em) {
+  .container {
+    max-width: 30rem;
+  }
+  .btn {
+    font-size: 1.4rem !important;
+  }
+
+  .section-featured {
+    display: none;
+  }
+}
