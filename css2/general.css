@@ -198,3 +198,7 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+.orange {
+  color: #e69d00 !important;
+}

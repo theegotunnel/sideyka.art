@@ -176,6 +176,10 @@
     grid-template-columns: 1fr;
   }
 
+  .btn {
+    font-size: 1.6rem !important;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
@@ -239,5 +243,13 @@
 
   .cta-text-box {
     padding: 3.2rem;
+  }
+}
+
+/* Phones below 415 was 544*/
+
+@media (max-width: 25em) {
+  .btn {
+    font-size: 1.4rem !important;
   }
 }
