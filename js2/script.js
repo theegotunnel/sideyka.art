@@ -32,7 +32,8 @@ const obs = new IntersectionObserver(
 obs.observe(sectionHeroEl);
 
 // Smooth scrolling animation
-const allLinks = document.querySelectorAll('.main-nav-link, .smooth');
+// удалил .main-nav-link,
+const allLinks = document.querySelectorAll(' .smooth');
 
 allLinks.forEach(function (link) {
   link.addEventListener('click', function (e) {
