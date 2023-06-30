@@ -256,6 +256,9 @@
 
 /* Phones below 320 was 544*/
 @media (max-width: 20em) {
+  .section-hero {
+    font-size: 40% !important;
+  }
   .container {
     max-width: 30rem;
   }
@@ -265,5 +268,16 @@
 
   .section-featured {
     display: none;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.4rem 1rem;
   }
 }
