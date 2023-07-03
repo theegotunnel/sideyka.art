@@ -416,6 +416,14 @@
 }
 
 /* temp */
+
+.donation {
+  display: flex !important;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 1.8rem;
+  list-style: none;
+}
 .contacts-temp {
   display: flex !important;
   gap: 1.8rem;

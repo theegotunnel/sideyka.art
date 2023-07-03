@@ -159,6 +159,9 @@
   .heading-secondary {
     margin-bottom: 2.4rem;
   }
+  .donation {
+    font-size: 3.2rem;
+  }
 }
 
 /* Phones below 544*/
@@ -244,6 +247,9 @@
   .cta-text-box {
     padding: 3.2rem;
   }
+  .donation {
+    font-size: 2rem;
+  }
 }
 
 /* Phones below 415 was 544*/
@@ -251,6 +257,9 @@
 @media (max-width: 25em) {
   .btn {
     font-size: 1.4rem !important;
+  }
+  .donation {
+    font-size: 2rem;
   }
 }
 
@@ -279,5 +288,8 @@
   .btn:link,
   .btn:visited {
     padding: 1.4rem 1rem;
+  }
+  .donation {
+    font-size: 1.8rem;
   }
 }

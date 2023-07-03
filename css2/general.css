@@ -199,6 +199,10 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-top-md {
+  margin-top: 3.2rem;
+}
+
 .orange {
   color: #e69d00 !important;
 }
