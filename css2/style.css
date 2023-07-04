@@ -255,7 +255,9 @@
 .project-links-list {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   margin-bottom: 0.8rem;
 }
@@ -442,4 +444,18 @@
 .cta-link:hover,
 .cta-link:active {
   color: #555;
+}
+
+.cta-donation {
+  font-size: 3.2rem;
+  text-align: center;
+  justify-content: center;
+  color: #e69d00;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.cta-donation:hover {
+  color: #ffae00;
+  transition: all 0.3s;
 }

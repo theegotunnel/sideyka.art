@@ -199,10 +199,44 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-top-sm {
+  margin-top: 1.8rem;
+}
+
 .margin-top-md {
   margin-top: 3.2rem;
 }
 
+.margin-top-bg {
+  margin-top: 12rem;
+}
+
 .orange {
   color: #e69d00 !important;
+}
+
+.link-in-text {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #e69d00;
+}
+
+.link-in-text:hover,
+.link-in-text:active {
+  color: #555;
+}
+
+.link-in-text-grey {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #555;
+}
+
+.link-in-text-grey:hover,
+.link-in-text-grey:active {
+  color: #e69d00;
+}
+
+.max-width-80 {
+  max-width: 80%;
 }
