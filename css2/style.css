@@ -459,3 +459,16 @@
   color: #ffae00;
   transition: all 0.3s;
 }
+
+.other-project-link {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.other-project-link:hover {
+  color: #ffae00;
+  transition: all 0.3s;
+}
